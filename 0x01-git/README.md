@@ -1,1 +1,1 @@
-The first repository about git project.
+The first repository about git. 
