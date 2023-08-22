@@ -1,0 +1,43 @@
+#INSERTNG OR ADDING TEXT
+i - insert text before cursor, until <Esc> hit 
+I - insert text at beginning of current line, until <Esc> hit 
+a - insert text afer cursor, until <Esc> hit 
+I - append text to end of current line, until <Esc> hit 
+o - open and put text in a new line below current line,  until <Esc> hit
+O - open and put text in a new line above current line,  until <Esc> hit
+
+
+#COPYING (YANKING) 
+
+yy - Yank (copy) the current lie, including the newline character
+Nyy - copy N lines, starting from the line where the cursor is positioned
+y$ - copy everything from the cursor to the end of the of the line 
+y^ - copy everything from the cursor to the start of the line 
+yw - copy to the start of the next word
+yiw - copy the current word
+y% - copy to the matching character. By default supported pairs are (), {}, and []. Useful to copy text 
+	between matching brackets 
+
+#CUTTING
+In normal mode, d is the key for cutting (deleting) text. Move the cursor to the desired position and press the d key, followed by the movement command. Here are some helpful deleting commands
+
+dd - deleting (cut) the current line, incuding the newline character
+Ndd - delete (cut) N lines,  starting from the line where the cursor is positioned
+d$ -  delete (cut) everything from the cursor to then of the line
+dNw - delete N words beginning with character under cursor; e.g d5w deletes 5 words 
+dw - delete the single word beginnn=ing with character under cursor
+Nx - delete N characters, starting with character under cursor 
+
+#PASTING
+Move cursor to desire location:
+p - paste the cut text after the cursor position
+P - paste the cut text before the cursor position
+
+#SEARCH STRINGS
+
+/string  - search forward for the occurence of the string
+?string  - search backward for the occurence of the string 
+n - move to next occurence of search string
+N - move to next occurrence of search string in opposite direction 
+
+
