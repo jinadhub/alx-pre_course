@@ -1,0 +1,16 @@
+commands			function
+C-x s				saving without exiting
+C-x C-w 			saving a file with a different name
+C-x C-c 			Exiting emacs (ask whether to save the file)
+C-v 				Page down
+M-v 				Page up
+M->				Goto end of the file
+M-<				Goto the beginning of the file
+C-a				Goto beginning of a line
+C-e 				Goto end of a line
+C-x u				undo
+C-g 				cancel messed up sequence
+C-s 				search
+M-%				search and replace
+C-k 				Delete (line/paragraph from cursor onwards)
+C-y 				PAste the previously killed part (yank) 
